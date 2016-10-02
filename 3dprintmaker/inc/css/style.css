@@ -1,0 +1,215 @@
+/* ::::::::::::::::::::: MOBILE max-width: 450px :::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::*/
+@media screen and (max-width: 450px) 
+{
+
+	ul {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#container {
+		width: 90%!important;
+		margin: auto;
+		margin-bottom: 3em;
+	}
+
+	article {
+		width: 90%!important;
+		padding: 0.5em;
+	}
+
+}
+
+/* ::::::::::::::::::::: MOBILE max-width: 800px:::::::::::::::::::*/
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::*/
+@media screen and (max-width: 600px)
+{
+
+/*	header {
+		position: absolute;
+	}*/
+
+	ul {
+		flex-direction: column!important;
+		align-items: center;
+	}
+
+	ul li:hover {
+		background-color: #3498db;
+		border-radius: 4px;
+	}
+
+	#container {
+		width: 80%!important;
+		margin: auto;
+		margin-bottom: 7em;
+	}
+
+	#container article:first-child {
+		margin-top:16em!important;
+	}
+
+	article {
+		width: 80%!important;
+		padding: 0.5em;
+	}
+
+}
+
+
+/* ::::::::::::::::::::: DESKTOP :::::::::::::::::::*/	
+/* ========== MENU =========== */
+header {
+	margin: auto;
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	z-index: 1;
+}
+	
+nav ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		font-size: 1.45em;
+}
+
+nav li {
+
+	padding : 0 1.3em;  /* Espace les boutons entre eux */
+	list-style-type : none;
+}
+
+ nav li a {
+ 	padding: 0.7em;
+ 	color: #000;
+ 	/*display: inline-block;*/
+ }
+
+nav a:link {
+	text-decoration: none;
+	color:black;
+}
+
+nav a:hover {
+	text-decoration: none;
+	background-color: #3498db;
+	border: #3498db solid 1px;
+	border-radius: 4px;
+}
+
+/* ============ TITRES =========== */
+h1, h2 {
+	text-align: center;
+}
+
+/* ========== CONTENU ========= */
+body {
+	margin: 0;
+	padding: 0;
+	background: url(../img/blue.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+
+#container {
+	margin: auto;
+	padding: 0;
+	padding: 2.5%;
+	width: 60%;
+	box-sizing: border-box;
+
+}
+
+#container article:first-child {
+	margin-top: 6em;
+}
+
+
+#container article{
+	margin-top: 6%;
+}
+
+article {
+	margin: auto;
+	max-width: 700px;
+	padding: 1%;
+	font-size: 1.12em;
+	background-color: rgba(52, 152, 219,0.8);
+	text-align: justify;
+	color: white;
+	font-family: Calibri;
+	box-shadow: 3px 3px 5px #fff; 
+	border-radius: 1%;
+	border: 1px black solid;
+}
+
+/* ========== FORMULAIRE DE CONTACT ========== */
+#contentFormId {
+	font-family: Calibri;
+	color: #fff;
+	font-size: 1.2em;
+	max-width: 35em;
+	margin: auto;
+	margin-top: 4em;
+	padding: 2em;
+	border-radius: 0.5em;
+}
+
+#formId {
+	display: flex;
+	flex-direction: column;
+}
+
+#formId input, textarea, button {
+	margin-bottom: 2em;
+}
+
+#formId button {
+	margin: auto;
+	width: 7em;
+	padding: 0.5em;
+	color: #fff;
+	background-color: rgba(41, 149, 185,1.0);
+	border: 0.1em solid rgba(41, 128, 185,1.0);
+	border-radius: 0.6em;
+	cursor: pointer;
+}
+
+#formId button:hover {
+	box-shadow: 3px 3px 5px #fff; 
+}
+
+#formId button:active {
+	background-color: rgba(30, 90, 185,1.0);
+}
+
+.star {
+	color: #e74c3c;
+	font-size: 0.8em;
+}
+
+/* =========== FOOTER =========== */
+footer {
+	margin: auto;
+	padding: 0.8em;
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	box-sizing: border-box;
+}
+
+footer p {
+	margin: 0.5em;
+}
+
+footer p:last-child {
+	margin-bottom: 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+}
+
